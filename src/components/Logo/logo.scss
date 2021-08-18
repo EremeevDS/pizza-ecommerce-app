@@ -1,0 +1,22 @@
+.logo{
+   display: flex;
+   align-items: center;
+   color:black;
+
+   &:hover{
+      cursor: pointer;
+   }
+}
+.logo__align{
+   margin-left: 10px;
+}
+.logo__title{
+   font-size: 26px;
+   line-height: 26px;
+   font-weight: 600;
+}
+.logo__subtitle{
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: 400;
+}
